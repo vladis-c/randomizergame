@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 75px;
+    max-width: 400px;
+    background: rgb(237,236,186);
+    background: radial-gradient(circle, rgba(237,236,186,0.5494572829131652) 0%, rgba(96,149,86,0.21612394957983194) 100%);
+}
+
+h1 {
+    color: #031d59;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+p { 
+    color: #031d59;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;   
+}
+
+#tries-el {
+    white-space: pre;
+}
+
+#name-el {
+    white-space: pre;
+}
+
+#to-play-el {
+    white-space: pre;
+}
+#end-game {
+    white-space: pre;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#counter-el {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;     
+}
+
+input {
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #3dafcc;
+    margin-bottom: 4px;
+    background: transparent;
+}
+
+
+button {
+    background: #3dafcc;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #3dafcc;
+    font-weight: bold;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+#generate-btn {
+    margin-top: 10px;
+}
+
+
+
+
